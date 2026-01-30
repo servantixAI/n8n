@@ -25,3 +25,8 @@
 !docker/images/n8n/docker-entrypoint.sh
 !docker/images/runners
 !docker/images/runners/n8n-task-runners.json
+
+# === Root package files (needed for some Dockerfiles) ===
+!.npmrc
+!package.json
+!pnpm-lock.yaml
